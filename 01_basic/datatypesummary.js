@@ -29,3 +29,18 @@ const myfunction = function(){
     console.log("hello Manish");
 }
 myfunction();
+
+
+
+//************Memory */
+
+// there are two type 
+// heap(non primitive) , stack (primitive)
+
+let myyoutubename = "mr_coder"
+
+let othername = "mr_coder"
+
+othername = "manish pandey"
+console.log(othername);
+console.log(myyoutubename);
