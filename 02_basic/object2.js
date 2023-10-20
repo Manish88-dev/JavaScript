@@ -16,4 +16,31 @@ const user2 = {4:"c",5:"d",6:"e"}
 //const user3 =Object.assign({},user1,user2)
 // console.log(user3);
 const user3 ={...user1 , ...user2}
-console.log(user3);
+//console.log(user3);
+
+
+// desturcturing
+const course ={
+    coursename:"Js",
+    price:"1000",
+    courseInstrutor:"Mainsh"
+
+}
+const {courseInstrutor}= course
+console.log(course);
+console.log(courseInstrutor);
+//how to distructure 
+const {courseInstrutor:Instrutor}= course
+console.log(course);
+console.log(Instrutor);
+
+
+// API 
+// {
+//     "coursename":"Js",
+//     "price":"1000",
+//     "courseInstrutor":"Mainsh"
+
+// }
+
+
