@@ -27,3 +27,9 @@ function loggedin(username) {
 loggedin("Manish")
 console.log(loggedin("Manish"));
 
+
+function calculatecartprice(...num3) {   //...rest opertor 
+    return num3
+    
+}
+console.log(calculatecartprice(400,200,300));
